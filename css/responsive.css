@@ -11,7 +11,7 @@
 
   #secondary {
     width: 40%;
-    float: right;    
+    float: right;
   }
 
   /*********************************************
@@ -22,9 +22,9 @@
     width: 28.3333%;
   }
 
-  #gallery li:nth-child(4n) {
+  /*#gallery li:nth-child(4n) {
     clear: left;
-  }
+  }*/
 
   /*********************************************
   PAGE: ABOUT
@@ -37,7 +37,7 @@
 
 }
 
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 883px) {
 
   /*********************************************
   HEADER
@@ -74,10 +74,3 @@
   }
 
 }
-
-
-
-
-
-
-
