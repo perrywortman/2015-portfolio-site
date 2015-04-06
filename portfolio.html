@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>W. Perry Wortman | Web Development</title>
+    <link rel="icon" type="image/ico" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initital-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <a href="index.html" id="logo">
+        <h1><span class="fa fa-code fa-lg"></span> W. Perry Wortman</h1>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html" class="selected">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section>
+        <ul id="gallery">
+          <li>
+            <a href="simpleTodoApp/index.html" target="_blank">
+              <img src="img/simpleTodoApp.png" alt="">
+              <p>Todo web app</p>
+            </a>
+          </li>
+<!--           <li>
+            <a href="spoiler/index.html" target="_blank">
+              <img src="img/spoiler.png" alt="">
+              <p>Movie spoiler</p>
+            </a>
+          </li> -->
+<!--           <li>
+            <a href="lightbox/index.html" target="_blank">
+              <img src="img/lightbox.png" alt="">
+              <p>Lightbox plugin</p>
+            </a>
+          </li> -->
+          <li>
+            <a href="drawingApp/index.html" target="_blank">
+              <img src="img/drawingApp.png" alt="">
+              <p>Drawing web app</p>
+            </a>
+          </li>
+          <li>
+            <a href="signUpForm/index.html" target="_blank">
+              <img src="img/signUpForm.png" alt="">
+              <p>Simple sign up form</p>
+            </a>
+          </li>
+          <li>
+            <a href="yokosKitchen/index.html" target="_blank">
+              <img src="img/yokosKitchen.png" alt="">
+              <p>Fixed website</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.elephantconversations.com" target="_blank">
+              <img src="img/elephant_conversations.png" alt="">
+              <p>Ecommerce website</p>
+            </a>
+          </li>
+          <li>
+            <a href="smellsLikeBakin/index.html" target="_blank">
+              <img src="img/smellsLikeBakin.png" alt="">
+              <p>Responsive website</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <footer>
+        <a class="social-icon" href="https://linkedin.com/in/perrywortman"><span class="fa fa-linkedin-square fa-3x"></span></a>
+        <a class="social-icon" href="https://github.com/perrywortman"><span class="fa fa-github-square fa-3x"></span></a>
+        <p>&copy;2015 W. Perry Wortman</p>
+      </footer>
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $('.slide').hover(
+        function(){
+          $(this).find('.caption').slideDown(250);
+        },
+        function(){
+          $(this).find('.caption').slideUp(250);
+        }
+      );
+    });
+    </script>
+  </body>
+</html>
